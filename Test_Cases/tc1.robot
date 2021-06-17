@@ -1,5 +1,6 @@
 *** Settings ***
-Library SeleniumLibrary
+Library     SeleniumLibrary
+
 
 
 *** Variables ***
@@ -7,6 +8,9 @@ Library SeleniumLibrary
 
 
 *** Test Cases ***
+LoginTest
+    open browser    https://www.saucedemo.com/  chrome
+
 
 
 
