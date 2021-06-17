@@ -16,5 +16,5 @@ LoginTest
     input text  id:password     secret_sauce
     click element    id:login-button
     close browser
-
+# to run the test case in terminal write command "robot <directory/filename.robot>"
 *** Keywords ***
