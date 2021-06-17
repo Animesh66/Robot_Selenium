@@ -9,6 +9,7 @@ Library     SeleniumLibrary
 
 *** Test Cases ***
 LoginTest
+    create webdriver    chrome
     open browser    https://www.saucedemo.com/  chrome
 
 
