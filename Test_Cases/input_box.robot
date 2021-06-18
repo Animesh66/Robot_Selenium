@@ -15,6 +15,6 @@ TestingInputBox
     click link  xpath://a[contains(text(),'Log in')]
     ${"email_text"}     set variable    id:Email
     element should be visible   ${"email_txt"}
-
+    element should be enable    ${"email_txt"}
 
 *** Keywords ***
