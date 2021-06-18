@@ -18,7 +18,7 @@ TestingInputBox
     element should be visible   ${"email_text"}
     element should be enabled   ${"email_text"}
     input text  ${"email_text"}     test@email.com
-    sleep 5
+    sleep   5
     clear element text      ${"email_text"}
 
 *** Keywords ***
