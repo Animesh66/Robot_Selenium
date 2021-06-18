@@ -9,6 +9,7 @@ ${url}  https://demo.nopcommerce.com/
 *** Test Cases ***
 
 TestingInputBox
+
     open browser    ${url}  ${browser}
     maximize browser window
     title should be     nopCommerce demo store
@@ -16,5 +17,8 @@ TestingInputBox
     ${"email_text"}     set variable    id:Email
     element should be visible   ${"email_txt"}
     element should be enable    ${"email_txt"}
+    input text  ${"email_text"}     test@email.com
+    sleep 5
+    clear element text      ${"email_text"}
 
 *** Keywords ***
